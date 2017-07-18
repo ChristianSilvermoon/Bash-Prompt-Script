@@ -5,7 +5,7 @@ I find it immenstly useful
 ## What all does it display?
 Shell Name and version
 
-Uptime (REQUIRES: procps)
+Uptime (REQUIRES: `procps`)
 
 Time and Date
 
