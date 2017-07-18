@@ -23,8 +23,9 @@ Exit Code info if last process exited with non-zero
 The script was designed to work with GNU Bash, but should also run in ZSH
 
 Add the following lines to your `.bashrc`
-	```bash
-	PROMPT_COMMAND="source ~/.path-to-script.sh"
-	```
+
+```bash
+PROMPT_COMMAND="source ~/.path-to-script.sh"
+```
 
 If at any point you need extra room in your terminal, you can mute it's output with `BASHRC_PROMPTCOMMAND="0"`
