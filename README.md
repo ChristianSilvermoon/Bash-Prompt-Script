@@ -4,12 +4,19 @@ I find it immenstly useful
 
 ## What all does it display?
 Shell Name and version
+
 Uptime (REQUIRES: procps)
+
 Time and Date
+
 Disk usage for current file system (that the working directory is on)
+
 Git Branch name (Green if nomal, red if ahead of remote, uncommited changes, or untracked files) (REQUIRES: `git`)
+
 Battery info if a battery is present (REQUIRES: `acpi`)
+
 Jobs if any are running
+
 Exit Code info if last process exited with non-zero
 
 ## How do I use this?
