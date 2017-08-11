@@ -1,3 +1,6 @@
 #Ignore Compiled Source Files
 *.o
 *.bin
+
+#Ignore C++ Source Code
+*.cpp
