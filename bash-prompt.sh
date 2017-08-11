@@ -14,7 +14,7 @@ else
 	echo -n ""
 fi
 
-if [ "$BASHRC_PROMPTCOMMAND" = "1" ]; then
+if [ "$BASHRC_PROMPTCOMMAND" = "1" -o "$BASHRC_PROMPTCOMMAND" = "3" ]; then
 	echo ""
 	echo "════════════════════════════════════════════════════════════════════════════════"
 	#DISPLAY System
@@ -74,7 +74,9 @@ if [ "$BASHRC_PROMPTCOMMAND" = "1" ]; then
 
 	#Line Break
 	echo "════════════════════════════════════════════════════════════════════════════════"
+fi
 
+if [ "$BASHRC_PROMPTCOMMAND" = "1" -o "$BASHRC_PROMPTCOMMAND" = "2" ]; then
 	#Insert Indicator for Command Exit
 	if [ "$lastcmdexit" != "0" ]; then
 		echo -en "\e[31;2mError Code: $lastcmdexit - "
@@ -100,5 +102,4 @@ if [ "$BASHRC_PROMPTCOMMAND" = "1" ]; then
 		echo -en "\e[0m"
 		unset lastcmdexit
 	fi
-
 fi
