@@ -28,4 +28,13 @@ Add the following lines to your `.bashrc`
 PROMPT_COMMAND="source ~/.path-to-script.sh"
 ```
 
-If at any point you need extra room in your terminal, you can mute it's output with `BASHRC_PROMPTCOMMAND="0"`
+##MODES
+The prompt script relies on the variable `BASHRC_PROMPTCOMMAND` for how it should behave.
+
+| Value | Behavior |
+| :---: | ---------|
+| NULL  | Sets `BASHRC_PROMPTCOMMAND` to "1" |
+| 0     | Outputs Nothing |
+| 1     | Outputs Info Box and Exit Code |
+| 2     | Outputs Exit Code Only |
+| 3     | Outputs Info Box Only |
