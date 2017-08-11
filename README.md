@@ -1,6 +1,6 @@
 # Bash-Prompt-Script
-A script I use for displaying info about my systems as I work
-I find it immenstly useful
+A script I use for displaying info about my systems as I work.
+I find it *very* useful.
 
 ## What all does it display?
 Shell Name and version
