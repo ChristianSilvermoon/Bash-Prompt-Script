@@ -28,7 +28,7 @@ Add the following lines to your `.bashrc`
 PROMPT_COMMAND="source ~/.path-to-script.sh"
 ```
 
-##MODES
+## MODES
 The prompt script relies on the variable `BASHRC_PROMPTCOMMAND` for how it should behave.
 
 | Value | Behavior |
