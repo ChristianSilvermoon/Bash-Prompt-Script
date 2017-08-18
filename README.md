@@ -2,7 +2,7 @@
 A script I use for displaying info about my systems as I work.
 I find it *very* useful.
 
-## What all does it display?
+## What all does it display? (Linux.sh)
 Shell Name and version
 
 Uptime (REQUIRES: `procps`)
